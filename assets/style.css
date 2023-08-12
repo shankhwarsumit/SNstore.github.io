@@ -616,7 +616,7 @@ h5{
     /* ... (other responsive adjustments) ... */
 }
 
-@media (max-width: 480px) {
+@media (max-width: 300px) {
     /* Display products in a single column */
     .shop-content {
         grid-template-columns: auto;
