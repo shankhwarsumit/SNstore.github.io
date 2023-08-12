@@ -630,20 +630,30 @@ h5{
     .product-price {
         font-size: 0.6rem;
     }
-    .cart {
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 100%; /* Use full width of the screen */
-        height: 100vh; /* Use full height of the viewport */
-        overflow-y: auto;
-        overflow-x: hidden;
-        padding: 20px;
-        background-color: #fff;
-        box-shadow: -2px solid 4px hsl(0 4% 15% / 10%);
-        border: 1px solid var(--main-color);
-        transition: 1.5s;
-    }
+    /* Adjust initial position of the cart for better visibility */
+.cart {
+    position: fixed; /* Use 'fixed' instead of 'absolute' for proper positioning */
+    top: 0;
+    right: -100%; /* Start the cart off-screen */
+    width: 100%; /* Use full width of the screen */
+    height: 100vh; /* Use full height of the viewport */
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: -2px solid 4px hsl(0 4% 15% / 10%);
+    border: 1px solid var(--main-color);
+    transition: 1.5s;
+    z-index: 1000; /* Ensure the cart is on top of other elements */
+}
+
+/* Adjust z-index of other elements as needed */
+header {
+    z-index: 1001; /* Make sure the header is above the cart */
+}
+
+/* ... (other styles) ... */
+    
 
     /* ... (other responsive adjustments) ... */
 }
@@ -657,8 +667,7 @@ h5{
 
 /* Update footer styles for smaller screens */
 @media (max-width: 700px) {
-    .footerContainer {
-        padding: 30px 10px 10px;
+    .footerContaing: 30px 10px 10px;
     }
     
     .socialIcons {
