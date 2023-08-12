@@ -634,4 +634,51 @@ h5{
 }
 
 /* Add more media queries and adjustments as needed for other breakpoints */
+    /* Update existing code */
+
+/* ... (your existing code) ... */
+
+/* ==================RESPONSIVE & BREAKPOINTS=================================== */
+
+/* Update footer styles for smaller screens */
+@media (max-width: 700px) {
+    .footerContainer {
+        padding: 30px 10px 10px;
+    }
     
+    .socialIcons {
+        font-size: 1.5em;
+    }
+    
+    .footerNav ul li a {
+        margin: 10px;
+        font-size: 1em;
+    }
+    
+    .footerBottom p {
+        font-size: 0.8em;
+    }
+}
+
+/* Update footer styles for even smaller screens */
+@media (max-width: 480px) {
+    .footerContainer {
+        padding: 20px 10px 10px;
+    }
+    
+    .socialIcons {
+        font-size: 1.2em;
+    }
+    
+    .footerNav ul li a {
+        margin: 5px;
+        font-size: 0.8em;
+    }
+    
+    .footerBottom p {
+        font-size: 0.7em;
+    }
+}
+
+/* Add more media queries and adjustments as needed for other breakpoints */
+
