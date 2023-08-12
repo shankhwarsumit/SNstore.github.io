@@ -232,9 +232,24 @@ header{
     section{
         padding: 3rem 0 2rem;
     }
+        .shop-content{
+    display: grid;
+    grid-row:auto auto auto;
+    gap: 1.5rem;
+}
     .shop{
         margin-top: 2rem;
     }
+    .product-title{
+    font-size: 0.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+.product-price{
+    font-weight: 500;
+    font-size: 0.1rem;
+}
 }
 
 /* For Medium Devices */
@@ -248,10 +263,23 @@ header{
     .cart{
         width: 320px;
     }
-    .shop-content{
+ .shop-content{
     display: grid;
-    grid-row:auto;
+    grid-row:auto auto auto;
     gap: 1.5rem;
+}
+    .shop{
+        margin-top: 2rem;
+    }
+    .product-title{
+    font-size: 0.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+.product-price{
+    font-weight: 500;
+    font-size: 0.1rem;
 }
 }
 
@@ -263,4 +291,22 @@ header{
     .cart{
         width: 280px;
     }
+     .shop-content{
+    display: grid;
+    grid-row:auto auto auto;
+    gap: 1.5rem;
+}
+    .shop{
+        margin-top: 2rem;
+    }
+    .product-title{
+    font-size: 0.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+.product-price{
+    font-weight: 500;
+    font-size: 0.1rem;
+}
 }
