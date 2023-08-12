@@ -573,3 +573,65 @@ h5{
         font-size: 1.2em;
     }
 }
+/* Update existing code */
+
+/* ... (your existing code) ... */
+
+/* ==================RESPONSIVE & BREAKPOINTS=================================== */
+
+@media (max-width: 1080px) {
+    /* Display products in a single column */
+    .shop-content {
+        grid-template-columns: auto;
+    }
+
+    /* Update font sizes for this breakpoint */
+    .product-title {
+        font-size: 1rem;
+    }
+
+    .product-price {
+        font-size: 1rem;
+    }
+
+    /* ... (other responsive adjustments) ... */
+}
+
+@media (max-width: 700px) {
+    /* Display products in a single column */
+    .shop-content {
+        grid-template-columns: auto;
+    }
+
+    /* Update font sizes for this breakpoint */
+    .product-title {
+        font-size: 0.8rem;
+    }
+
+    .product-price {
+        font-size: 0.8rem;
+    }
+
+    /* ... (other responsive adjustments) ... */
+}
+
+@media (max-width: 480px) {
+    /* Display products in a single column */
+    .shop-content {
+        grid-template-columns: auto;
+    }
+
+    /* Update font sizes for this breakpoint */
+    .product-title {
+        font-size: 0.6rem;
+    }
+
+    .product-price {
+        font-size: 0.6rem;
+    }
+
+    /* ... (other responsive adjustments) ... */
+}
+
+/* Add more media queries and adjustments as needed for other breakpoints */
+    
