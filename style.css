@@ -265,7 +265,7 @@ header{
     }
  .shop-content{
     display: grid;
-    grid-row:auto auto auto;
+    grid-row:auto auto;
     gap: 1.5rem;
 }
     .shop{
@@ -293,7 +293,7 @@ header{
     }
      .shop-content{
     display: grid;
-    grid-row:auto auto auto;
+    grid-row:auto;
     gap: 1.5rem;
 }
     .shop{
