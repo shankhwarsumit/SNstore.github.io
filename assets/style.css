@@ -553,3 +553,23 @@ h5{
     text-align: center;
     font-size: 1.5em;
 }
+@media screen and (max-width: 480px) {
+[type="submit"] {
+        font-size: 12px;
+    }
+
+  [type="submit"]:hover {
+        font-size: 1.2em;
+        transform: scale(1.1);
+    }
+
+    
+    .cartcont {
+        grid-template-columns: 1fr; 
+    }
+
+  
+    h5 {
+        font-size: 1.2em;
+    }
+}
