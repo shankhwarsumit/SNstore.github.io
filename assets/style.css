@@ -289,6 +289,22 @@ header{
         object-fit: cover;
         margin-bottom: .5rem;
     }
+    .shop-content{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 2rem;
+    }
+.product-title{
+    font-size: 0.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.product-price{
+    font-weight: 500;
+    font-size: 14px;
+    }
    
 }
 
@@ -309,6 +325,22 @@ header{
         padding: 15px;
         width: 100%; 
     }
+    .shop-content{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 2rem;
+    }
+.product-title{
+    font-size: 0.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.product-price{
+    font-weight: 500;
+    font-size: 14px;
+}
     
 }
 
@@ -453,7 +485,22 @@ footer{
     padding: 15px;
     width: 300px; 
 }
+    .shop-content{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+    }
+.product-title{
+    font-size: 0.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
 
+.product-price{
+    font-weight: 500;
+    font-size: 14px;
+    }
 
 }
 
