@@ -27,4 +27,4 @@ Contributions and improvements to the SN Store website are welcome! Feel free to
 Designed and developed by Sumit shankhwar.
 
 
-Start shopping now at the [SN Store](https://SNstore.github.io)!
+Start shopping now at the [SN Store](https://shankhwarsumit.github.io/SNstore.github.io/)!
