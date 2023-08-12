@@ -83,7 +83,7 @@ header{
     position: absolute;
     top: 0;
     right: 0;
-    right: -100%; 
+    right: -100%;
     width: 360px;
     height: 100vh;
     overflow-y: auto;
@@ -93,6 +93,7 @@ header{
     box-shadow: -2px solid 4px hsl(0 4% 15% / 10%);
     border: 1px solid var(--main-color);
     transition: 1.5s;
+    
 }
 
 .cart.active{
@@ -628,6 +629,20 @@ h5{
 
     .product-price {
         font-size: 0.6rem;
+    }
+    .cart {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%; /* Use full width of the screen */
+        height: 100vh; /* Use full height of the viewport */
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: -2px solid 4px hsl(0 4% 15% / 10%);
+        border: 1px solid var(--main-color);
+        transition: 1.5s;
     }
 
     /* ... (other responsive adjustments) ... */
