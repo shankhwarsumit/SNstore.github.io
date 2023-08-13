@@ -269,20 +269,6 @@ header{
     .shop{
         margin-top: 2rem;
     }
-
-        .shop-content {
-        grid-template-columns: auto;
-    }
-
-   
-    .product-title {
-        font-size: 1rem;
-    }
-
-    .product-price {
-        font-size: 1rem;
-    }
-
 }
 
 @media (max-width: 400px){
@@ -490,34 +476,6 @@ footer{
     margin:0px 5px;
 }
 @media (max-width: 700px){
-      .footerContaing: 30px 10px 10px;
-    }
-    
-    .socialIcons {
-        font-size: 1.5em;
-    }
-    
-    .footerNav ul li a {
-        margin: 10px;
-        font-size: 1em;
-    }
-    
-    .footerBottom p {
-        font-size: 0.8em;
-    }
-    .shop-content {
-        grid-template-columns: auto;
-    }
-
-
-    .product-title {
-        font-size: 0.8rem;
-    }
-
-    .product-price {
-        font-size: 0.8rem;
-    }
-    
     .footerNav ul{
         flex-direction:column;
 }
@@ -620,23 +578,42 @@ h5{
     h5 {
         font-size: 1.2em;
     }
+}
 
-     .footerContainer {
-        padding: 20px 10px 10px;
+
+@media (max-width: 1080px) {
+    /* Display products in a single column */
+    .shop-content {
+        grid-template-columns: auto;
     }
+
+   
+    .product-title {
+        font-size: 1rem;
+    }
+
+    .product-price {
+        font-size: 1rem;
+    }
+
     
-    .socialIcons {
-        font-size: 1.2em;
+}
+
+@media (max-width: 700px) {
+ 
+    .shop-content {
+        grid-template-columns: auto;
     }
-    
-    .footerNav ul li a {
-        margin: 5px;
-        font-size: 0.8em;
+
+
+    .product-title {
+        font-size: 0.8rem;
     }
-    
-    .footerBottom p {
-        font-size: 0.7em;
+
+    .product-price {
+        font-size: 0.8rem;
     }
+
 }
 
 @media (max-width: 300px) {
@@ -676,3 +653,40 @@ header {
 }
 
 
+@media (max-width: 700px) {
+    .footerContaing: 30px 10px 10px;
+    }
+    
+    .socialIcons {
+        font-size: 1.5em;
+    }
+    
+    .footerNav ul li a {
+        margin: 10px;
+        font-size: 1em;
+    }
+    
+    .footerBottom p {
+        font-size: 0.8em;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .footerContainer {
+        padding: 20px 10px 10px;
+    }
+    
+    .socialIcons {
+        font-size: 1.2em;
+    }
+    
+    .footerNav ul li a {
+        margin: 5px;
+        font-size: 0.8em;
+    }
+    
+    .footerBottom p {
+        font-size: 0.7em;
+    }
+}
