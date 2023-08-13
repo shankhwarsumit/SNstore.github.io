@@ -349,23 +349,7 @@ header{
        .shop-content{
     display: grid;
     grid-template-columns:auto auto auto auto;
-    gap: 2rem;
-    }
-.product-title{
-    font-size: 1rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-bottom: 14px;
-}
-
-.product-price{
-    font-weight: 500;
-    font-size: 25px;
-    }
-
-}
-
-    
+    gap: 2rem;}  
     
     .search-container {
         text-align: center;
